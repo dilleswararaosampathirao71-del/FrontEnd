@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code-editor for HTML,CSS and JS</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Code Editor for Front End Developers</h1>
+    </header>
+    <main>
+        <span id="span2">
+        <span id="span1">
+        <div id="html">
+             <form name="Forhtml">
+                 <label for="htmlEditor">HTML</label>
+                 <br>
+                 <textarea id="htmlEditor" name="htmlEditor" rows="20" cols="50" placeholder="Enter the html code here..."></textarea>
+             </form>
+        </div>
+        <div id="css">
+             <form name="Forcss">
+                 <label for="cssEditor">CSS</label>
+                 <br>
+                 <textarea id="cssEditor" name="cssEditor" rows="20" cols="50" placeholder="Enter the css code here..."></textarea>
+             </form>
+        </div>
+        <div id="js">
+             <form name="Forjs">
+                 <label for="jsEditor">JS</label>
+                 <br>
+                 <textarea id="jsEditor" name="jsEditor" rows="20" cols="50" placeholder="Enter the JS code here..."></textarea>
+             </form>
+        </div>            
+        </span>
+        <div id="op">
+            <form name="Foroutput">
+                <label for="opPanel">OutPut</label>
+                <br>
+                <iframe id="opPanel"></iframe>
+            </form> 
+        </div>
+        </span>
+        <nav>
+            <button onClick="alert('run button was clicked')">Run</button>
+            <button onmouseenter="alert('Reset button was cliked')">Clear</button>
+        </nav>
+    </main>
+    <footer>
+    <h4>Made by Dilleswararao</h4>
+    </footer>
+</body>
+</html>
