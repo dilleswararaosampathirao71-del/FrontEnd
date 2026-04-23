@@ -39,7 +39,7 @@ function clearCode() {
     htmlEditor.value = "";
     cssEditor.value = "";
     jsEditor.value = "";
-
+  
     const iframeDoc = outputFrame.contentDocument || outputFrame.contentWindow.document;
     iframeDoc.open();
     iframeDoc.write("");
